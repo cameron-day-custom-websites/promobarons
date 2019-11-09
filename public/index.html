@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-us" class="has-navbar-fixed-top">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Promo Barons</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" style="background-color: white;">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://promobarons.com/">
+                    <img src="images/logo.JPG" height="150px" width="400px" />
+                </a>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navbar" class="navbar-menu" style="background-color: white;">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#">Home</a>
+                    <a class="navbar-item" href="#contact">Contact</a>
+                    <a class="navbar-item" href="#services">Services</a>
+                    <a class="navbar-item" href="about.html">About Us</a>
+                </div>
+            </div>
+        </nav>
+        <section alt="Brand" class="hero is-fullheight is-fullheight-with-navbar" id="hero" style="background: url('images/brand.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;">
+            <div class="hero-body">
+                <div class="container" id="typed-strings">
+                    <h1 class="title is-1 is-info" style="color: hsl(204, 86%, 53%)">Your one stop shop for promotional products and apparel. </h1>
+                    <br>
+                    <h2 class="subtitle">
+                        <a class="button is-info is-large is-outlined" href="#services">Let's Go</a>
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <main class="container">
+            <br>
+            <h2 class="title" id="services" style="text-align: center" data-aos="fade-up" data-aos-delay="500">Our Services</h2>
+            <hr data-aos="fade-up">
+            <div class="promo">
+                <div class="promoItem" data-aos="fade-up" data-aos-delay="1000">
+                    <a href="providers/apperal.html"><img src="images/fashion.svg" alt="Promotional Apparel Icon"></a>
+                </div>
+                <div class="promoItem" data-aos="fade-up" data-aos-delay="1300">
+                    <a href="providers/products.html"><img src="images/flyer.svg" alt="Promotional Products Icon"></a>
+                </div>
+                <div class="promoItem" data-aos="fade-up" data-aos-delay="1600">
+                    <a href="providers/forward.html"><img src="images/data.svg" alt="Web Design Icon"></a>
+                </div>
+            </div>
+            <div class="promo">
+                <p data-aos="fade-up" data-aos-delay="1000">Promotional Apparel</p>
+                <p data-aos="fade-up" data-aos-delay="1300">Promotional Products</p>
+                <p data-aos="fade-up" data-aos-delay="1600">Responsive Web Design</p>
+            </div>
+            <div id="promoMobile">
+                <div data-aos="fade-up" data-aos-delay="1000">
+                    <a href="providers/apperal.html"><img src="images/fashion.svg" alt="Promotional Apparel Icon"></a>
+                    <p>Promotional Apparel</p>
+                </div>
+                <br />
+                <div data-aos="fade-up" data-aos-delay="1300">
+                    <a href="providers/products.html"><img src="images/flyer.svg" alt="Promotional Products Icon"></a>
+                    <p>Promotional Products</p>
+                </div>
+                <br />
+                <div data-aos="fade-up" data-aos-delay="1600">
+                    <a href="providers/forward.html"><img src="images/data.svg" alt="Web Design Icon"></a>
+                    <p>Responsive Web Design</p>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <h2 class="title" style="text-align: center" data-aos="fade" data-aos-delay="2300">Contact Us</h2>
+            <hr data-aos="fade" data-aos-delay="2100" />
+            <div class="container columns" id="contact">
+                <div class="column" data-aos="fade" data-aos-delay="2600">
+                    <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxv4J-jdUZBMd8H9WM5JsJ1vHDvFfJEPDBYgevcasX0igMzzJY/exec">
+                        <div class="field">
+                            <label class="label">Name</label>
+                            <div class="control has-icons-left">
+                                <input class="input" type="text" id="name" name="name" placeholder="Your first and last name.">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-user-tie" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control has-icons-left">
+                                <input class="input" type="email" id="email" name="email" placeholder="Your email address.">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Message</label>
+                            <div class="control">
+                                <textarea class="textarea" id="message" name="message" placeholder="Your message for us." style="margin-top: 0px; margin-bottom: 0px; height: 120px;"></textarea>
+                            </div>
+                        </div>
+                        <fieldset class="pure-group honeypot-field" style="display: none;">
+                            <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
+                            <input id="honeypot" type="text" name="honeypot" value=""/>
+                        </fieldset>
+                        <div class="g-recaptcha" id="recap" data-sitekey="6Le2drgUAAAAANcfPExmrK67FLqAw4-ASSe3R1Ak" data-callback="enableBtn"></div>
+                        <br />
+                        <input type="submit" class="button is-light" id="submit"></input>
+                        <br />
+                        <i class="fas fa-check" id="check" style="color: hsl(141, 71%, 48%); display: none;"> Message Sent</i>
+                        <br />
+                        <div class="thankyou_message" style="display: none">
+                            <h2><em>Thanks</em> for contacting us!
+                              We will get back to you soon!</h2> <!--This plus honeypot is required-->
+                        </div>
+                    </form>
+                </div>
+                <div class="vr" data-aos="fade" data-aos-delay="2600"></div>
+                <div data-aos="fade" data-aos-delay="2600">
+                    <div class="column" id="information">
+                        <br>
+                        <h5><i class="fas fa-envelope" aria-hidden="true"></i> vaughn@promobarons.com</h5>
+                        <h5><i class="fas fa-phone" aria-hidden="true"></i> (419) 618-5477</h5>
+                        <h5><a><i class="fab fa-instagram" aria-hidden="true" style="color: #E1306C;"></i></a>   Instagram</h5>
+                        <h5><a><i class="fab fa-twitter-square" aria-hidden="true"></i></a>   Twitter</h5>
+                        <h5><a><i class="fab fa-facebook-square" aria-hidden="true"></i></a>   Facebook</h5>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <br />
+        <footer class="footer" style="background-color: #595959; padding-bottom: 0;"> 
+            <div class="content has-text-centered" style="color: white;">
+                <p>Copyright © 2019 Promo Barons | Powered By <a href="https://camerondaycustomwebsites.net/" style="color: white;">Cameron Day Custom Webistes</a></p><p>
+            </p></div>
+            <br>
+            <div class="container has-text-centered is-vcentered">
+                <div class="columns is-mobile is-vcentered" style="color: white;">
+                    <div class="column">
+                        <h5><a><i class="fab fa-instagram" aria-hidden="true" style="color: #E1306C;"></i></a>   Instagram</h5>
+                    </div>
+                    <div class="column">
+                        <h5><a><i class="fab fa-twitter-square" aria-hidden="true"></i></a>   Twitter</h5>
+                    </div>
+                    <div class="column">
+                        <h5><a><i class="fab fa-facebook-square" aria-hidden="true"></i></a>   Facebook</h5>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <h6 class="has-text-centered"><a>Sitemap</a></h6>
+        </footer>
+        <script src="js/index.js"></script>
+        <script data-cfasync="false" src="js/form-submission-handler.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+        <script src="https://kit.fontawesome.com/db363a0ad8.js"></script>
+        <script>
+            AOS.init()
+            AOS.init({
+                once: true
+            })
+        </script>
+    </body>
+</html>
+<!--https://coolors.co/595959-7f7f7f-a5a5a5-cccccc-f2f2f2 Color Scheme-->
+<!--
+    <div>Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/"         
+    title="Flaticon">www.flaticon.com</a></div>
+    <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"         
+    title="Flaticon">www.flaticon.com</a></div>
+-->
