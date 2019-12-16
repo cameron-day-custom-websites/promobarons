@@ -11,7 +11,3 @@ document.addEventListener('DOMContentLoaded', () => {
       })
     }
 })
-document.getElementById("submit").disabled = true
-function enableBtn(){
-  document.getElementById("submit").disabled = false
-}
